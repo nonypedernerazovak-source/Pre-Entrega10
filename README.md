@@ -93,11 +93,15 @@ cargarLibros()
 
 ### Librería externa
 
-✅ Implementada:
+✅ Implementada
 
-**Toastify**
+### Toastify  utilizado para informar acciones como:
+
+✅Libro agregado correctamente al carrito.
 
 ### Manipulación del DOM
+
+✅ Los libros recibidos desde data.json se renderizan dinámicamente mediante JavaScript.
 
 ### Comunicación con el usuario
 
@@ -107,3 +111,4 @@ cargarLibros()
 * Éxito.
 * Error.
 * Reintento.
+  
