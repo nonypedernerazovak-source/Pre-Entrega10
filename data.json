@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "titulo": "Harry Potter y la piedra filosofal",
+        "autor": "J.K. Rowling",
+        "genero": "Fantasía",
+        "precio": 33000,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "titulo": "Bridgerton: El vizconde que me amó",
+        "autor": "Julia Quinn",
+        "genero": "Romance",
+        "precio": 25000,
+        "stock": 8
+    },
+    {
+        "id": 3,
+        "titulo": "Saga Off Campus",
+        "autor": "Elle Kennedy",
+        "genero": "Romance",
+        "precio": 30000,
+        "stock": 3
+    },
+    {
+        "id": 4,
+        "titulo": "Crepúsculo",
+        "autor": "Stephenie Meyer",
+        "genero": "Fantasía",
+        "precio": 28000,
+        "stock": 5
+    },
+    {
+        "id": 5,
+        "titulo": "Las crónicas de Narnia",
+        "autor": "C.S. Lewis",
+        "genero": "Fantasía",
+        "precio": 32000,
+        "stock": 7
+    }
+]
