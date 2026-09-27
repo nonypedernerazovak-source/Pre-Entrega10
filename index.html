@@ -7,13 +7,24 @@
 
     <title>LunaBelle - Librería</title>
 
-    <!---------Toastify CSS------------>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    
-        <!---------CSS propio ---------->
+    <!-- ==============================
+         TOASTIFY CSS
+    =============================== -->
+
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    >
+
+    <!-- ==============================
+         CSS PROPIO
+    =============================== -->
+
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
+
 
 <body>
 
@@ -22,58 +33,87 @@
     =============================== -->
 
     <header class="header">
+
         <div class="contenedor-header">
 
             <div class="logo">
+
                 <h1>📚 LunaBelle</h1>
-                <p>Tu librería favorita</p>
+
+                <p>
+                    Tu librería favorita
+                </p>
+
             </div>
 
+
             <div class="carrito-info">
+
                 🛒 Carrito:
-                <span id="contadorCarrito">0</span>
+
+                <span id="contadorCarrito">
+                    0
+                </span>
+
             </div>
 
         </div>
+
     </header>
 
-
-  <!--==============================
-         CONTENIDO 
+    <!-- ==============================
+         CONTENIDO PRINCIPAL
     =============================== -->
 
     <main class="contenedor">
 
-        <section class="presentacion">
-            <h2>Catálogo de libros</h2>
-
-            <p>
-                Descubrí historias increíbles y encontrá tu próxima lectura
-                favorita.
-            </p>
-        </section>
-
 
         <!-- ==============================
-             MENSAJE QUE MUESTRA LA CARGA
+             PRESENTACIÓN
         =============================== -->
 
-        <div id="estadoCarga" class="estado-carga">
+        <section class="presentacion">
+
+            <h2>
+                Catálogo de libros
+            </h2>
+
+            <p>
+                Descubrí historias increíbles y encontrá
+                tu próxima lectura favorita.
+            </p>
+
+        </section>
+
+        <!-- ==============================
+             ESTADO DE CARGA
+        =============================== -->
+
+        <div
+            id="estadoCarga"
+            class="estado-carga"
+        >
+
             <div class="spinner"></div>
 
             <p>
                 Cargando libros...
             </p>
+
         </div>
 
-
         <!-- ==============================
-             MENSAJE QUE MUESTRA ERROR
+             MENSAJE DE ERROR
         =============================== -->
 
-        <div id="mensajeError" class="mensaje-error oculto">
+        <div
+            id="mensajeError"
+            class="mensaje-error oculto"
+        >
 
-            <h3>❌ Ocurrió un error</h3>
+            <h3>
+                ❌ Ocurrió un error
+            </h3>
 
             <p>
                 No pudimos cargar los libros.
@@ -86,45 +126,53 @@
 
         </div>
 
-
         <!-- ==============================
-             LISTA DE LOS LIBROS
+             LISTA DE LIBROS
         =============================== -->
 
         <section
             id="listaLibros"
             class="lista-libros"
-            aria-live="polite">
+            aria-live="polite"
+        >
         </section>
 
-
         <!-- ==============================
-              SECCION DEL CARRITO
-        =============================== -->
+             SECCIÓN DEL CARRITO
+        ============================== -->
 
         <section class="seccion-carrito">
 
+
             <div class="titulo-carrito">
 
-                <h2>🛒 Mi carrito</h2>
+                <h2>
+                    🛒 Mi carrito
+                </h2>
+
 
                 <button
                     id="vaciarCarrito"
-                    class="btn-vaciar">
+                    class="btn-vaciar"
+                >
                     Vaciar carrito
                 </button>
 
             </div>
 
+            <!-- ==============================
+                 LISTA DEL CARRITO
+            =============================== -->
 
-            <div id="listaCarrito" class="lista-carrito">
-
-                <p class="carrito-vacio">
-                    Tu carrito está vacío.
-                </p>
-
+            <div
+                id="listaCarrito"
+                class="lista-carrito"
+            >
             </div>
 
+            <!-- ==============================
+                 TOTAL
+            =============================== -->
 
             <div class="total-carrito">
 
@@ -138,10 +186,11 @@
 
             </div>
 
+
         </section>
 
-    </main>
 
+    </main>
 
     <!-- ==============================
          FOOTER
@@ -154,27 +203,25 @@
         </p>
 
         <p>
-            Proyecto Pre-Entrega 10 - JavaScript
+            Proyecto realizado con HTML, CSS y JavaScript
         </p>
 
     </footer>
 
-
     <!-- ==============================
-         JS
+         TOASTIFY JS
     =============================== -->
 
     <script
-        type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/toastify-js">
-    </script>
-
+        src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
 
     <!-- ==============================
-         JAVASCRIPT 
+         JAVASCRIPT PROPIO
     =============================== -->
 
     <script src="./js/main.js"></script>
+
 
 </body>
 </html>
